@@ -1,0 +1,77 @@
+/* layout around the card */
+.cert-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* grid layout for certifications */
+.cert-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* each certificate row */
+.cert-item {
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* align logo + text */
+.cert-content {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* keeps logo away from text */
+}
+
+/* logo styling */
+.cert-row {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* bigger, clearly noticeable gap */
+  padding: 10px 14px;
+  margin-top: 5px;
+  background: #fafafa;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cert-logo {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* 🔥 Tablet */
+@media (max-width: 768px) {
+  .cert-wrapper {
+    grid-template-columns: 1fr; /* stack */
+    gap: 12px;
+  }
+
+  .cert-item {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  .cert-logo {
+    width: 34px;
+  }
+}
+
+/* 🔥 Small mobile */
+@media (max-width: 480px) {
+  .cert-item {
+    font-size: 12px;
+  }
+
+  .cert-logo {
+    width: 30px;
+  }
+}

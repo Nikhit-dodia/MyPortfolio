@@ -1,0 +1,143 @@
+:root {
+  --white: #ffffff;
+  --green: #8fabd4;
+  --sky: #bed8ff;
+  --black: #000000;
+}
+
+section {
+  padding: 40px 10%;
+  background: var(--white);
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#navbar-items {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* GRID FOR CARDS */
+.skill-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin: 14px 0;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.skill-column h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 8px;
+  background: #fff;
+}
+
+.skill-logo {
+  width: 26px;
+  height: 26px;
+  background: #f4f4f4;
+  border-radius: 6px;
+}
+
+/* CARD (fixed width removed for responsiveness) */
+.card {
+  width: 100%;
+  max-width: 1200px; /* adapts to screen */
+  min-height: 160px;
+
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--white);
+  font-weight: 600;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔥 TABLET RESPONSIVENESS */
+@media (max-width: 1024px) {
+  section {
+    padding: 40px 8%;
+  }
+
+  .skill-grid {
+    gap: 30px;
+  }
+
+  .card {
+    max-width: 700px;
+  }
+}
+
+/* 🔥 MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  section {
+    padding: 32px 6%;
+  }
+
+  .skills-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+}
+
+/* FLOAT ANIMATION */
+.float {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.footer-icon:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+}

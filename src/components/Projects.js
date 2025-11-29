@@ -37,6 +37,34 @@ export default function Projects() {
         </div>
       </div>
 
+    {/* Other illustrations*/}
+    <div className="project-block">
+        <h3 className="project-heading">Graphic Designs</h3>
+        <div className="projects-grid">
+          <div className="car-card">
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/71473e239525695.692b28c7ae4ab.png"
+              alt="graphic Design 1"
+            />
+          </div>
+
+          <div className="car-card">
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6546c0239525695.692b28c7ad8aa.png"
+              alt="graphic Design 2"
+            />
+          </div>
+
+          <div className="car-card">
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/cafeac239525695.692b28c7adec5.png"
+              alt="graphic Design 3"
+            />
+          </div>
+        </div>
+      </div>
+
+
       {/* CLIENT PROJECTS */}
       <div className="project-block">
         <h3 className="project-heading">Client Projects</h3>

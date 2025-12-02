@@ -29,16 +29,16 @@ export default function Projects() {
       <div className="project-block">
         <h3 className="project-heading">Car Designs</h3>
         <div className="projects-grid">
-          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/89b11a238013117.690c2adcefe20.png")}>
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/0d7fe3239703925.692f13d43c8c8.png")}>
             <img
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/89b11a238013117.690c2adcefe20.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/0d7fe3239703925.692f13d43c8c8.png"
               alt="Car Design 1"
             />
           </div>
 
-          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/80d4d4236997105.68f7bf9c50c90.png")}>
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/011cd8239684865.692ed29f3ddfd.jpg")}>
             <img
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/80d4d4236997105.68f7bf9c50c90.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/011cd8239684865.692ed29f3ddfd.jpg"
               alt="Car Design 2"
             />
           </div>
@@ -66,6 +66,13 @@ export default function Projects() {
           <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6546c0239525695.692b28c7ad8aa.png")}>
             <img
               src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6546c0239525695.692b28c7ad8aa.png"
+              alt="graphic Design 2"
+            />
+          </div>
+
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f827d8239069589.6921751b39613.png")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f827d8239069589.6921751b39613.png"
               alt="graphic Design 2"
             />
           </div>
@@ -121,9 +128,9 @@ export default function Projects() {
       <div className="project-block">
         <h3 className="project-heading">Art & Illustrations</h3>
         <div className="projects-grid">
-          <div className="project-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f827d8239069589.6921751b39613.png")}>
+          <div className="project-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a5c26b239069589.6921751b37d31.png")}>
             <img
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f827d8239069589.6921751b39613.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a5c26b239069589.6921751b37d31.png"
               alt="Illustration 1"
             />
           </div>

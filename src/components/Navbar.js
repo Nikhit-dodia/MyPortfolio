@@ -17,15 +17,19 @@ export default function Navbar() {
         <a href="#about" id="navbar-items">
           About
         </a>
-        <a href="#skills" id="navbar-items">
-          Skills
-        </a>
-        <a href="#experience" id="navbar-items">
-          Experience
-        </a>
+
         <a href="#projects" id="navbar-items">
           Projects
         </a>
+
+        <a href="#skills" id="navbar-items">
+          Skills
+        </a>
+        
+        <a href="#experience" id="navbar-items">
+          Experience
+        </a>
+       
       </div>
     </nav>
   );

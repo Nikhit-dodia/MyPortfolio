@@ -44,6 +44,17 @@ export default function Skills() {
             </div>
 
             <div className="skill-item">
+              <span>Affinity</span>
+              <div className="skill-logo">
+                <img
+                  src="https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/affinity-logo-icon.png"
+                  alt=""
+                  className="skill-logo"
+                />
+              </div>
+            </div>
+
+            <div className="skill-item">
               <span>Adobe Indesign</span>
               <div className="skill-logo">
                 <img

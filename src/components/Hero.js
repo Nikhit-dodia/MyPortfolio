@@ -8,8 +8,8 @@ export default function Hero() {
 
         <h1 style={styles.title}>Automotive & Concept Designer</h1>
         <p style={styles.subtitle}>
-          Specializing in car design, 2D/3D visualization & raw concept
-          sketching.
+        The projects you see below are made without any guidance and all through self learning! 
+        <br></br>I Specialize in 2D/3D visualization & raw concept sketching.
         </p>
       </div>
 

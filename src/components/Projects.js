@@ -29,6 +29,14 @@ export default function Projects() {
       <div className="project-block">
         <h3 className="project-heading">Car Designs</h3>
         <div className="projects-grid">
+
+        <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a24111239910511.693305762e926.jpg")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a24111239910511.693305762e926.jpg"
+              alt="Car Design 1"
+            />
+          </div>
+
           <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/0d7fe3239703925.692f13d43c8c8.png")}>
             <img
               src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/0d7fe3239703925.692f13d43c8c8.png"
@@ -43,18 +51,54 @@ export default function Projects() {
             />
           </div>
 
-          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/1413e6226134917.68297b4978c2d.jpg")}>
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/836d88239781165.6930759628a21.jpg")}>
             <img
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/1413e6226134917.68297b4978c2d.jpg"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/836d88239781165.6930759628a21.jpg"
               alt="Car Design 3"
             />
           </div>
+
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/1413e6226134917.68297b4978c2d.jpg")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/1413e6226134917.68297b4978c2d.jpg"
+              alt="Car Design 4"
+            />
+          </div>
+
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/9d2153240172519.69390109e80b0.png")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/9d2153240172519.69390109e80b0.png"
+              alt="Car Design 5"
+            />
+          </div>
+
+          {/* <div className="car-card" onClick={() => openImage("")}>
+            <img
+              src=""
+              alt="Car Design 6"
+            />
+          </div>
+          
+          <div className="car-card" onClick={() => openImage("")}>
+            <img
+              src=""
+              alt="Car Design 6"
+            />
+          </div>
+          
+          <div className="car-card" onClick={() => openImage("")}>
+            <img
+              src=""
+              alt="Car Design 6"
+            />
+          </div> */}
+
         </div>
       </div>
 
     {/* Other illustrations*/}
     <div className="project-block">
-        <h3 className="project-heading">Graphic Designs</h3>
+        <h3 className="project-heading">Graphic Posters - using Autodesk Sketchbook</h3>
         <div className="projects-grid">
           <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/71473e239525695.692b28c7ae4ab.png")}>
             <img
@@ -83,6 +127,14 @@ export default function Projects() {
               alt="graphic Design 3"
             />
           </div>
+
+          {/* <div className="car-card" onClick={() => openImage("")}>
+            <img
+              src=""
+              alt="Car Design 6"
+            />
+          </div> */}
+
         </div>
       </div>
 
@@ -98,6 +150,7 @@ export default function Projects() {
             />
             <div className="desc-text">
               Brand Logo design for a tech start-up called The Tech Shine.
+              Tool - Autodesk Sketchbook
             </div>
           </div>
 
@@ -108,7 +161,8 @@ export default function Projects() {
             />
             <div className="desc-text">
               Brand Logo re-design for a popular dance class/club named UGDC
-              dance group.
+              dance group. 
+              Tool - Autodesk Sketchbook
             </div>
           </div>
 
@@ -119,14 +173,16 @@ export default function Projects() {
             />
             <div className="desc-text">
               Youtube Thumbnail design for a travel vlogger exploring Heritages.
+              Tool - Canva + sketchbook
             </div>
           </div>
         </div>
       </div>
 
+
       {/* ART ILLUSTRATIONS */}
       <div className="project-block">
-        <h3 className="project-heading">Art & Illustrations</h3>
+        <h3 className="project-heading">Art & Illustrations - using Autodesk Sketchbook</h3>
         <div className="projects-grid">
           <div className="project-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a5c26b239069589.6921751b37d31.png")}>
             <img
@@ -150,6 +206,41 @@ export default function Projects() {
           </div>
         </div>
       </div>
+
+      <div className="project-block">
+        <h3 className="project-heading">Event Invitations</h3>
+        <div className="projects-grid">
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/afb135240380461.693d29dd0ddb9.jpg")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/afb135240380461.693d29dd0ddb9.jpg"
+              alt="event 1"
+            />
+          </div>
+
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/b5d280240380461.693d29dd0e414.png")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/b5d280240380461.693d29dd0e414.png"
+              alt="Car Design 2"
+            />
+          </div>
+
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/7efbee240380461.693d29dd0c478.jpg")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/7efbee240380461.693d29dd0c478.jpg"
+              alt="Car Design 3"
+            />
+          </div>
+
+          <div className="car-card" onClick={() => openImage("https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/12036a240380461.693d29dd0d69a.jpg")}>
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/12036a240380461.693d29dd0d69a.jpg"
+              alt="Car Design 4"
+            />
+          </div>
+        </div>
+      </div>
+
+   
 
        {/* POPUP MODAL */}
        {selectedImage && (
